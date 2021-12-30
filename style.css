@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: canvas_bg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-style:dashed;
+    border-color: red;
+    border-radius: 10%;
+    border-width: 10px;
+}
+@keyframes canvas_bg
+{ 0% {box-shadow: 10px 10px 38px red;}
+25% {box-shadow: 10px 10px 38px rgb(0, 255, 0);}
+50% {box-shadow: 10px 10px 38px rgb(0, 26, 255);}
+75% {box-shadow: 10px 10px 38px rgb(238, 255, 0);}
+100% {box-shadow: 10px 10px 38px rgb(247, 0, 255);} 
+}
